@@ -10,3 +10,11 @@ def count_vowels(string:str) -> int:
     Returns:
         int: The number of vowels in the string.
     """
+    vogais = "aeiouAEIOU"  
+
+    cont = 0  
+    for ca in string:
+        if ca in vogais:  
+            cont += 1  
+
+    return cont
